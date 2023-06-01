@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://s2.best-wallpaper.net/wallpaper/2560x1600/1305/The-plane-flying-at-sunset-airliner-photography_2560x1600.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button i {
+  font-size: 40px;
+
+}
+
+.content {
+  margin-top: 10px;
+  justify-content: space-between;
+  word-break: break-word;
+}
+
+img {
+  min-width: 120px;
+  background-image: radial-gradient(#b5b5b5, #f7f7f7 70%);
+}
+
+.sol {
+border-radius: 20px;
+background-size: cover;
+padding-left: 50px;
+padding-right: 20px;
+padding-top: 130px;
+padding-bottom: 130px;
+background: linear-gradient(90deg, #f89524 1%, #3e45aa 99%);
+
+}
+
+.titulo{
+
+margin-left: 90px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 25px;
+margin-bottom: 25px;
+}
